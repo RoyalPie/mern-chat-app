@@ -1,7 +1,8 @@
 import { StreamChat } from "stream-chat";
 import { Chat } from "stream-chat-react";
 import Cookies from "universal-cookie";
-import { ChannelListContainer, ChannellContainer } from "./components";
+import './App.css'
+import { ChannelListContainer, ChannelContainer } from "./components";
 const apiKey = "mfpyzveatbaj";
 
 const client = StreamChat.getInstance(apiKey);
@@ -11,7 +12,7 @@ function App() {
       {/* Chat component is a provider that provides the ChatContext */}
       <Chat client={client} theme="team light"> 
         <ChannelListContainer />
-        <ChannellContainer />
+        <ChannelContainer />
       </Chat>
     </div>
   );
