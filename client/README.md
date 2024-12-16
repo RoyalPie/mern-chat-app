@@ -1,7 +1,4 @@
 # React + Vite
 
-Medical Pager Chat App
+MERN stack Chat App
 
-Using CSS CEM methodology
-Stream API
-Universal cookie to save user info
