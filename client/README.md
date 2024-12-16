@@ -2,3 +2,4 @@
 
 MERN stack Chat App
 
+Tailwind CSS + DaisyUI
